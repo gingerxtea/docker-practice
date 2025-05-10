@@ -9,4 +9,9 @@ public class HomeController {
     public String sayHello(){
         return "<h1>Hello World!</h1>";
     }
+
+    @GetMapping("/jpn")
+    public String sayHelloJpn(){
+        return "<h1>おはようございます<h1>";
+    }
 }
